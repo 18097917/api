@@ -1,0 +1,13 @@
+name = "api"
+type = "javascript"
+account_id = "18097917@qq.com"
+workers_dev = true
+route = "example.com/*"
+
+[build]
+command = "npm run build"
+compatibility = "nodejs_compat"
+
+[[build.upload]]
+  dir = "out"
+  destination = ""
